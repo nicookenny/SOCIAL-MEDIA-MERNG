@@ -36,7 +36,7 @@ const LikeButton = ({ user, post: { id, likes, likeCount } }) => {
 
 	return (
 		<Popup
-			content={liked ? 'Unlike that' : 'Like that'}
+			content={liked ? 'Unlike this' : 'Like this'}
 			trigger={
 				<Button as='div' labelPosition='right' onClick={user ? likePost : null}>
 					{likeButton}
